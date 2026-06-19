@@ -1,0 +1,23 @@
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #2e2f42;
+}
+.logo .accent {
+  color: #4d5ae5;
+  font-family: Raleway;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+  color: #2e2f42;
+  color: #ffffff;
+}

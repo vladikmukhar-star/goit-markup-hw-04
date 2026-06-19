@@ -1,0 +1,56 @@
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #2e2f42;
+}
+
+.logo .accent {
+  color: #4d5ae5;
+  font-family: Raleway;
+}
+
+.Features {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.Team {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.Portfolio {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.mailto {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.tel {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.page-title {
+  text-align: center;
+}
