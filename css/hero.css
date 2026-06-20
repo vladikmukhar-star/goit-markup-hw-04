@@ -1,0 +1,17 @@
+.hero {
+  text-align: center;
+  background-color: #2e2f42;
+}
+.page-title {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}

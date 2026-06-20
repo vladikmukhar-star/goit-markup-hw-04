@@ -1,22 +1,42 @@
-.team {
+.our-team {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+.team-background-color {
   background-color: #f4f4fd;
 }
-.background-color {
-  background-color: #ffffff;
-}
 
-.background-color {
-  background-color: #ffffff;
-}
-
-.background-color {
-  background-color: #ffffff;
-}
-
-.background-color {
-  background-color: #ffffff;
-}
-
-.Team {
+.team-description {
   text-align: center;
+}
+
+.name {
+  text-align: center;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.profession {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+
+#team li {
+  background-color: #fff;
 }

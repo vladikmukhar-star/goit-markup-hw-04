@@ -3,7 +3,7 @@
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 0.03em;
   color: #2e2f42;
 }
 .logo .accent {
@@ -12,12 +12,12 @@
 }
 
 .logo-footer {
-  color: #ffffff;
+  color: #f4f4fd;
   font-family: Raleway;
 }
 
 .page-footer {
   background-color: #2e2f42;
   color: #2e2f42;
-  color: #ffffff;
+  color: #f4f4fd;
 }
