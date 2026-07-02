@@ -17,8 +17,17 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+}
+
+.hero-conteiner {
+}
+
+.hero-background {
+  padding: 188px 141px;
 }

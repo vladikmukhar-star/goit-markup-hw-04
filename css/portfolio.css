@@ -15,6 +15,9 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  padding-bottom: 72px;
+  padding-left: 470px;
+  padding-right: 470px;
 }
 
 .profession {
@@ -33,4 +36,37 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.flex-description {
+  padding: 0px 15px;
+}
+
+.flex-portfolio {
+  padding: 120px 0px;
+  width: 1440px;
+  height: 1240px;
+}
+
+.container-portfolio {
+  padding: 120px 0px;
+  width: 1440px;
+  height: 1240px;
+}
+
+.flex-portfolio-description {
+  padding: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-self: center;
+  align-items: center;
+  width: 1128px;
+  height: 888px;
+}
+
+.item {
+  width: calc((100% - 48px) / 3);
+  justify-self: center;
+  align-items: center;
 }
