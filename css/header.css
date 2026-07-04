@@ -1,102 +1,92 @@
-.logo {
-  font-family: Raleway;
-  text-decoration: none;
-  text-transform: uppercase;
-  line-height: 1.33;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #2e2f42;
-  margin: auto;
-}
-
-.logo .accent {
-  color: #4d5ae5;
-  font-family: Raleway;
-}
-
-.mailto {
-  font-style: normal;
-  color: #434455;
-  text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-.mailto:hover,
-.mailto:focus {
-  color: #404bbf;
-}
-
-.tel {
-  font-style: normal;
-  color: #434455;
-  text-decoration: none;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-.tel:hover,
-.tel:focus {
-  color: #404bbf;
-}
-
-.features {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-}
-.team {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-}
-.portfolio {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-}
-.features:hover,
-.features:focus,
-.team:hover,
-.team:focus,
-.portfolio:hover,
-.portfolio:focus {
-  color: #404bbf;
-}
-
-.header {
-  border-bottom: 1px solid var(--cornflower);
-
-  height: 72px;
-}
-.container-links {
-  display: flex;
-  justify-content: space-around;
-  align-self: center;
+/* --- СКИДАННЯ СТИЛІВ ДЛЯ СПИСКІВ --- */
+.header-link,
+.header-contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Рятує елементи li від переносу */
   align-items: center;
 }
 
 .header-link {
-  display: flex;
-  gap: 40px;
+  gap: 40px; /* Відступ між Features, Team, Portfolio */
 }
+
 .header-contact {
+  gap: 40px; /* Відступ між поштою та телефоном */
+}
+
+/* --- ХЕДЕР --- */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+/* Головний флекс-контейнер шапки */
+.container-links {
   display: flex;
-  height: 72px;
+  align-items: center; /* Вирівнює лого, нав і контакти строго по вертикальному центру */
+}
+
+/* --- ЛОГОТИП --- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.17;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+
+  /* Чіткий фіксований відступ від логотипу до навігації за макетом */
+  margin-right: 76px;
+}
+
+.logo .accent {
+  color: #4d5ae5;
+}
+
+/* Навігація */
+.header-nav {
+  display: flex;
   align-items: center;
-  gap: 40px;
-  padding-left: 340px;
+  /* Штовхає контакти в самий правий край екрана, заповнюючи простір */
+  margin-right: auto;
+}
+
+/* --- ПОСИЛАННЯ (КЛІКАБЕЛЬНА ЗОНА 24px) --- */
+.nav-link,
+.contact-link {
+  display: block; /* Робить падінги активними */
+  padding: 24px 0; /* Вимога ментора: по 24px зверху і знизу */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Для красивого ховеру */
+}
+
+/* Колір для навігації */
+.nav-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+/* Стилі для контактів */
+.contacts-address {
+  font-style: normal; /* Прибирає дефолтний курсив */
+}
+
+.contact-link {
+  font-weight: 400;
+  color: #434455;
+}
+
+/* ХОВЕРИ ТА ФОКУСИ */
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
 }

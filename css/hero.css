@@ -1,10 +1,17 @@
-.hero {
-  background-color: #2e2f42;
+.container {
+  max-width: 1158px; /* Твоє значення з макету */
+  margin: 0 auto; /* Центрування контейнера */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hero-background {
-  padding: 188px 141px;
+  padding: 188px 0;
   text-align: center;
+  background-color: #2e2f42; /* Якщо там є темний фон */
+}
+
+.hero-container {
 }
 
 .page-title {
@@ -15,8 +22,9 @@
   letter-spacing: 0.02em;
   padding-bottom: 48px;
   max-width: 496px;
-  margin: auto;
+  margin: 0 auto;
 }
+
 .button {
   background-color: #4d5ae5;
   color: #ffffff;
@@ -29,6 +37,7 @@
   border-radius: 4px;
   border: none;
 }
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
